@@ -46,7 +46,7 @@ end
 desc 'Dumps output to a CSS file for testing'
 task :debug do
   require 'sassc'
-  require './lib/bootstrap'
+  require './lib/bootstrap4'
   require 'term/ansicolor'
   require 'autoprefixer-rails'
   path = Bootstrap.stylesheets_path
